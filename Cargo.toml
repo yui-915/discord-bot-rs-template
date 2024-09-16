@@ -1,0 +1,6 @@
+[package]
+name = "discord-bot-rs-template"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
