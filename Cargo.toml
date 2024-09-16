@@ -1,6 +1,38 @@
 [package]
 name = "discord-bot-rs-template"
-version = "0.1.0"
+version = "0.0.1"
 edition = "2021"
 
-[dependencies]
+[[bin]]
+name = "discord-bot-rs-template"
+path = "src/internals/main.rs"
+
+
+[dependencies.poise]
+version = "0.6.1"
+package = "poise"
+
+[dependencies.tokio]
+version = "1.40.0"
+default-features = false
+features = ["rt", "macros"]
+
+[dependencies.toml]
+version = "0.8.19"
+default-features = false
+features = ["parse"]
+
+[dependencies.serde]
+version = "1.0.210"
+features = ["derive"]
+default-features = false
+
+[dependencies.serenity]
+version = "0.12.2"
+default-features = false
+
+[dependencies.lazy_static]
+version = "1.4.0"
+
+[dependencies.internal_macros]
+path = "crates/internal_macros"
