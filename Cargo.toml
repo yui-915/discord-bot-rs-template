@@ -5,7 +5,7 @@ edition = "2021"
 
 [[bin]]
 name = "discord-bot-rs-template"
-path = "src/internals/main.rs"
+path = "internals/main.rs"
 
 
 [dependencies.poise]
@@ -35,4 +35,4 @@ default-features = false
 version = "1.4.0"
 
 [dependencies.internal_macros]
-path = "crates/internal_macros"
+path = "internals/macros"

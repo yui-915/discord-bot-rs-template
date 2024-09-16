@@ -1,8 +1,8 @@
-#[path = "../configs.rs"]
+#[path = "../src/configs.rs"]
 mod configs;
-#[path = "../data.rs"]
+#[path = "../src/data.rs"]
 mod data;
-#[path = "../options.rs"]
+#[path = "../src/options.rs"]
 mod options;
 mod prelude;
 mod statics;
